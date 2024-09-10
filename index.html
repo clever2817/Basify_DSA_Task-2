@@ -10,54 +10,113 @@
   <body>
     <!-- HTML Table  -->
 
-    <h1>Basic HTML Table</h1>
-    <table border="1" cellspacing="0" cellpadding="10px">
-      <tr>
-        <th colspan="6">Time Table</th>
-      </tr>
+    <center>
+      <h1>Basic HTML Table</h1>
+      <table border="1" cellspacing="0" cellpadding="10px">
+        <tr>
+          <th colspan="6">Time Table</th>
+        </tr>
 
-      <tr>
-        <th rowspan="6">Hours</th>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-      </tr>
+        <tr>
+          <th rowspan="6">Hours</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
 
-      <tr>
-        <td>Math</td>
-        <td>Science</td>
-        <td>Math</td>
-        <td>Science</td>
-        <td>Arts</td>
-      </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Arts</td>
+        </tr>
 
-      <tr>
-        <td>Math</td>
-        <td>Science</td>
-        <td>Math</td>
-        <td>Science</td>
-        <td>Arts</td>
-      </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Arts</td>
+        </tr>
 
-      <tr>
-        <td colspan="5" align="center">Lunch</td>
-      </tr>
+        <tr>
+          <td colspan="5" align="center">Lunch</td>
+        </tr>
 
-      <tr>
-        <td>Math</td>
-        <td>Science</td>
-        <td>Math</td>
-        <td colspan="2" rowspan="2" align="center">Project</td>
-      </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td colspan="2" rowspan="2" align="center">Project</td>
+        </tr>
 
-      <tr>
-        <td>Math</td>
-        <td>Science</td>
-        <td>Math</td>
-      </tr>
-    </table>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+        </tr>
+      </table>
+      <br />
+    </center>
+
+    <hr />
+
+    <!-- HTML Form  -->
+
+    <center>
+      <h1>Basic HTML Form</h1>
+
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required />
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter a Valid Email Address"
+          required
+        />
+        <br /><br />
+
+        <label for="contact_no">Contact No:</label>
+        <input
+          type="number"
+          id="contact_no"
+          placeholder="Your Running Phone Number"
+          required
+        />
+        <br /><br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          minlength="8"
+          placeholder="Must be at least 8 length"
+          required
+        />
+        <br /><br />
+
+        <p>Select Your Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male" />
+        <label for="male">Male</label><br />
+
+        <input type="radio" id="female" name="gender" value="Female" />
+
+        <label for="female">Female</label> <br />
+        <br />
+
+        <input type="submit" value="Submit" />
+
+        <input type="reset" value="Reset" />
+      </form>
+      <br />
+    </center>
 
     <hr />
   </body>
